@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782D05BE1938D27400596EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05BD1938D27400596EC5 /* Foundation.framework */; };
+		782D05C01938D27400596EC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05BF1938D27400596EC5 /* CoreGraphics.framework */; };
+		782D05C21938D27400596EC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05C11938D27400596EC5 /* UIKit.framework */; };
+		782D05C81938D27400596EC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782D05C61938D27400596EC5 /* InfoPlist.strings */; };
+		782D05CA1938D27400596EC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D05C91938D27400596EC5 /* main.m */; };
+		782D05CE1938D27400596EC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D05CD1938D27400596EC5 /* AppDelegate.m */; };
+		782D05D01938D27400596EC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782D05CF1938D27400596EC5 /* Images.xcassets */; };
+		782D05D71938D27400596EC5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05D61938D27400596EC5 /* XCTest.framework */; };
+		782D05D81938D27400596EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05BD1938D27400596EC5 /* Foundation.framework */; };
+		782D05D91938D27400596EC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05C11938D27400596EC5 /* UIKit.framework */; };
+		782D05E11938D27400596EC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782D05DF1938D27400596EC5 /* InfoPlist.strings */; };
+		782D05E31938D27400596EC5 /* TimeConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D05E21938D27400596EC5 /* TimeConnectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782D05DA1938D27400596EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782D05B21938D27400596EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782D05B91938D27400596EC5;
+			remoteInfo = TimeConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782D05BA1938D27400596EC5 /* TimeConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782D05BD1938D27400596EC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		782D05BF1938D27400596EC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		782D05C11938D27400596EC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		782D05C51938D27400596EC5 /* TimeConnect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeConnect-Info.plist"; sourceTree = "<group>"; };
+		782D05C71938D27400596EC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		782D05C91938D27400596EC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		782D05CB1938D27400596EC5 /* TimeConnect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeConnect-Prefix.pch"; sourceTree = "<group>"; };
+		782D05CC1938D27400596EC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		782D05CD1938D27400596EC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		782D05CF1938D27400596EC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		782D05D51938D27400596EC5 /* TimeConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782D05D61938D27400596EC5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		782D05DE1938D27400596EC5 /* TimeConnectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeConnectTests-Info.plist"; sourceTree = "<group>"; };
+		782D05E01938D27400596EC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		782D05E21938D27400596EC5 /* TimeConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeConnectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782D05B71938D27400596EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D05C01938D27400596EC5 /* CoreGraphics.framework in Frameworks */,
+				782D05C21938D27400596EC5 /* UIKit.framework in Frameworks */,
+				782D05BE1938D27400596EC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782D05D21938D27400596EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D05D71938D27400596EC5 /* XCTest.framework in Frameworks */,
+				782D05D91938D27400596EC5 /* UIKit.framework in Frameworks */,
+				782D05D81938D27400596EC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782D05B11938D27400596EC5 = {
+			isa = PBXGroup;
+			children = (
+				782D05C31938D27400596EC5 /* TimeConnect */,
+				782D05DC1938D27400596EC5 /* TimeConnectTests */,
+				782D05BC1938D27400596EC5 /* Frameworks */,
+				782D05BB1938D27400596EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782D05BB1938D27400596EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782D05BA1938D27400596EC5 /* TimeConnect.app */,
+				782D05D51938D27400596EC5 /* TimeConnectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782D05BC1938D27400596EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782D05BD1938D27400596EC5 /* Foundation.framework */,
+				782D05BF1938D27400596EC5 /* CoreGraphics.framework */,
+				782D05C11938D27400596EC5 /* UIKit.framework */,
+				782D05D61938D27400596EC5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		782D05C31938D27400596EC5 /* TimeConnect */ = {
+			isa = PBXGroup;
+			children = (
+				782D05CC1938D27400596EC5 /* AppDelegate.h */,
+				782D05CD1938D27400596EC5 /* AppDelegate.m */,
+				782D05CF1938D27400596EC5 /* Images.xcassets */,
+				782D05C41938D27400596EC5 /* Supporting Files */,
+			);
+			path = TimeConnect;
+			sourceTree = "<group>";
+		};
+		782D05C41938D27400596EC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				782D05C51938D27400596EC5 /* TimeConnect-Info.plist */,
+				782D05C61938D27400596EC5 /* InfoPlist.strings */,
+				782D05C91938D27400596EC5 /* main.m */,
+				782D05CB1938D27400596EC5 /* TimeConnect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		782D05DC1938D27400596EC5 /* TimeConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				782D05E21938D27400596EC5 /* TimeConnectTests.m */,
+				782D05DD1938D27400596EC5 /* Supporting Files */,
+			);
+			path = TimeConnectTests;
+			sourceTree = "<group>";
+		};
+		782D05DD1938D27400596EC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				782D05DE1938D27400596EC5 /* TimeConnectTests-Info.plist */,
+				782D05DF1938D27400596EC5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782D05B91938D27400596EC5 /* TimeConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782D05E61938D27400596EC5 /* Build configuration list for PBXNativeTarget "TimeConnect" */;
+			buildPhases = (
+				782D05B61938D27400596EC5 /* Sources */,
+				782D05B71938D27400596EC5 /* Frameworks */,
+				782D05B81938D27400596EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeConnect;
+			productName = TimeConnect;
+			productReference = 782D05BA1938D27400596EC5 /* TimeConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		782D05D41938D27400596EC5 /* TimeConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782D05E91938D27400596EC5 /* Build configuration list for PBXNativeTarget "TimeConnectTests" */;
+			buildPhases = (
+				782D05D11938D27400596EC5 /* Sources */,
+				782D05D21938D27400596EC5 /* Frameworks */,
+				782D05D31938D27400596EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782D05DB1938D27400596EC5 /* PBXTargetDependency */,
+			);
+			name = TimeConnectTests;
+			productName = TimeConnectTests;
+			productReference = 782D05D51938D27400596EC5 /* TimeConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782D05B21938D27400596EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Cambridge Interns";
+				TargetAttributes = {
+					782D05D41938D27400596EC5 = {
+						TestTargetID = 782D05B91938D27400596EC5;
+					};
+				};
+			};
+			buildConfigurationList = 782D05B51938D27400596EC5 /* Build configuration list for PBXProject "TimeConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 782D05B11938D27400596EC5;
+			productRefGroup = 782D05BB1938D27400596EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782D05B91938D27400596EC5 /* TimeConnect */,
+				782D05D41938D27400596EC5 /* TimeConnectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782D05B81938D27400596EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D05C81938D27400596EC5 /* InfoPlist.strings in Resources */,
+				782D05D01938D27400596EC5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782D05D31938D27400596EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D05E11938D27400596EC5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782D05B61938D27400596EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D05CE1938D27400596EC5 /* AppDelegate.m in Sources */,
+				782D05CA1938D27400596EC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782D05D11938D27400596EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D05E31938D27400596EC5 /* TimeConnectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782D05DB1938D27400596EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782D05B91938D27400596EC5 /* TimeConnect */;
+			targetProxy = 782D05DA1938D27400596EC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		782D05C61938D27400596EC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782D05C71938D27400596EC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		782D05DF1938D27400596EC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782D05E01938D27400596EC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782D05E41938D27400596EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		782D05E51938D27400596EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		782D05E71938D27400596EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeConnect/TimeConnect-Prefix.pch";
+				INFOPLIST_FILE = "TimeConnect/TimeConnect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		782D05E81938D27400596EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeConnect/TimeConnect-Prefix.pch";
+				INFOPLIST_FILE = "TimeConnect/TimeConnect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		782D05EA1938D27400596EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeConnect.app/TimeConnect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeConnect/TimeConnect-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimeConnectTests/TimeConnectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		782D05EB1938D27400596EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeConnect.app/TimeConnect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeConnect/TimeConnect-Prefix.pch";
+				INFOPLIST_FILE = "TimeConnectTests/TimeConnectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782D05B51938D27400596EC5 /* Build configuration list for PBXProject "TimeConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782D05E41938D27400596EC5 /* Debug */,
+				782D05E51938D27400596EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782D05E61938D27400596EC5 /* Build configuration list for PBXNativeTarget "TimeConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782D05E71938D27400596EC5 /* Debug */,
+				782D05E81938D27400596EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		782D05E91938D27400596EC5 /* Build configuration list for PBXNativeTarget "TimeConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782D05EA1938D27400596EC5 /* Debug */,
+				782D05EB1938D27400596EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782D05B21938D27400596EC5 /* Project object */;
+}
