@@ -27,7 +27,18 @@
                                                     UIRemoteNotificationTypeAlert|
                                                     UIRemoteNotificationTypeSound];
     
+    //Tracks stats around application when opened
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"foo"] = @"bar";
+    [testObject saveInBackground];
+    
     return YES;
+}
+
+- (void) viewDidLoad{
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
