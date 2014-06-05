@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78017C021940CB4700CEF3ED /* TimeConnectlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 78017C011940CB4700CEF3ED /* TimeConnectlogo.png */; };
 		782D05BE1938D27400596EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05BD1938D27400596EC5 /* Foundation.framework */; };
 		782D05C01938D27400596EC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05BF1938D27400596EC5 /* CoreGraphics.framework */; };
 		782D05C21938D27400596EC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05C11938D27400596EC5 /* UIKit.framework */; };
@@ -29,6 +30,8 @@
 		78A1FC401938DD44001E0228 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC3F1938DD44001E0228 /* StoreKit.framework */; };
 		78A1FC421938DD4E001E0228 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC411938DD4E001E0228 /* SystemConfiguration.framework */; };
 		78A1FC441938DDDB001E0228 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC431938DDDB001E0228 /* Parse.framework */; };
+		78D3DC1A19409B4B005369EF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D3DC1919409B4B005369EF /* Storyboard.storyboard */; };
+		78D3DC1D19409BDA005369EF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D3DC1C19409BDA005369EF /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78017C011940CB4700CEF3ED /* TimeConnectlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeConnectlogo.png; sourceTree = "<group>"; };
 		782D05BA1938D27400596EC5 /* TimeConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782D05BD1938D27400596EC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		782D05BF1938D27400596EC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,6 +72,9 @@
 		78A1FC3F1938DD44001E0228 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		78A1FC411938DD4E001E0228 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		78A1FC431938DDDB001E0228 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		78D3DC1919409B4B005369EF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		78D3DC1B19409BDA005369EF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		78D3DC1C19409BDA005369EF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +154,9 @@
 		782D05C31938D27400596EC5 /* TimeConnect */ = {
 			isa = PBXGroup;
 			children = (
+				78D3DC1919409B4B005369EF /* Storyboard.storyboard */,
+				78D3DC1B19409BDA005369EF /* LoginViewController.h */,
+				78D3DC1C19409BDA005369EF /* LoginViewController.m */,
 				782D05CC1938D27400596EC5 /* AppDelegate.h */,
 				782D05CD1938D27400596EC5 /* AppDelegate.m */,
 				782D05CF1938D27400596EC5 /* Images.xcassets */,
@@ -158,6 +168,7 @@
 		782D05C41938D27400596EC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78017C011940CB4700CEF3ED /* TimeConnectlogo.png */,
 				782D05C51938D27400596EC5 /* TimeConnect-Info.plist */,
 				782D05C61938D27400596EC5 /* InfoPlist.strings */,
 				782D05C91938D27400596EC5 /* main.m */,
@@ -259,8 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78017C021940CB4700CEF3ED /* TimeConnectlogo.png in Resources */,
 				782D05C81938D27400596EC5 /* InfoPlist.strings in Resources */,
 				782D05D01938D27400596EC5 /* Images.xcassets in Resources */,
+				78D3DC1A19409B4B005369EF /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +294,7 @@
 			files = (
 				782D05CE1938D27400596EC5 /* AppDelegate.m in Sources */,
 				782D05CA1938D27400596EC5 /* main.m in Sources */,
+				78D3DC1D19409BDA005369EF /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +421,7 @@
 				GCC_PREFIX_HEADER = "TimeConnect/TimeConnect-Prefix.pch";
 				INFOPLIST_FILE = "TimeConnect/TimeConnect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -424,6 +439,7 @@
 				GCC_PREFIX_HEADER = "TimeConnect/TimeConnect-Prefix.pch";
 				INFOPLIST_FILE = "TimeConnect/TimeConnect-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -13,26 +13,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    // self.window.backgroundColor = [UIColor whiteColor];
+    // [self.window makeKeyAndVisible];
     
     //Establish Parse connection
     [Parse setApplicationId:@"VHJSk9hmfDIoXsrRE3V7KWM6KHkncJwYfslUp10A"
                   clientKey:@"jxEXtvJwz6Ey1BiH8gEX4TibuOfThpUbYTtV82x8"];
     
-    //Remote notificiations
+    //Remote notificiations (these lines are for push notificiations)
     [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|
                                                     UIRemoteNotificationTypeAlert|
                                                     UIRemoteNotificationTypeSound];
     
     //Tracks stats around application when opened
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
-    
-    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
-    testObject[@"foo"] = @"bar";
-    [testObject saveInBackground];
     
     return YES;
 }
@@ -68,7 +64,8 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-//Store the device token and handle the UI for notifications
+//Store the device token and handle the UI for notifications (PUSH NOTIFICATIONS)
+
 - (void)application:(UIApplication *)application
 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 {
