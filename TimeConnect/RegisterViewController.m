@@ -35,6 +35,56 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)textFieldReturn:(id)sender{
+    [sender resignFirstResponder];
+}
+
+- (IBAction)registerAction:(id)sender{
+    [_firstName resignFirstResponder];
+    [_lastName resignFirstResponder];
+    [_userName resignFirstResponder];
+    [_company resignFirstResponder];
+    [_companyEmail resignFirstResponder];
+    [_passwordField resignFirstResponder];
+    [_reenterPasswordField resignFirstResponder];
+    [self checkFieldsComplete];
+}
+
+- (void) checkFieldsComplete{
+    if([_firstName.text isEqualToString: @""] || [_lastName.text isEqualToString: @""] || [_userName.text isEqualToString: @""] || [_company.text isEqualToString: @""] || [_companyEmail.text isEqualToString: @""] || [_passwordField.text isEqualToString: @""] || [_reenterPasswordField.text isEqualToString: @""]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Error" message: @"You need to complete all fields" delegate:nil cancelButtonTitle: @"OK" otherButtonTitles: nil];
+        [alert show];
+    }else{
+        [self checkPasswordsMatch];
+    }
+}
+
+- (void) checkPasswordsMatch{
+    if(![_passwordField.text isEqualToString:_reenterPasswordField.text]){
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Error" message: @"Passwords do not match" delegate: nil cancelButtonTitle: @"OK" otherButtonTitles: nil];
+        [alert show];
+    }else{
+        [self registerNewUser];
+    }
+}
+
+- (void) registerNewUser{
+    NSLog(@"Registering...");
+    PFUser *newUser = [PFUser user];
+    newUser.username = _userName.text;
+    newUser.email = _companyEmail.text;
+    newUser.password = _passwordField.text;
+    
+    [newUser signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error){
+        if(!error){
+            NSLog(@"Registration success!");
+            [self performSegueWithIdentifier:@"login" sender:self];
+        }else{
+            NSLog(@"There was an error in registration");
+        }
+    }];
+}
+
 /*
 #pragma mark - Navigation
 

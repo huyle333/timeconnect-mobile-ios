@@ -10,6 +10,7 @@
 #import <Parse/Parse.h>
 
 @interface LoginViewController : UIViewController
+
 @property (weak, atomic) IBOutlet UITextField *loginUsernameField;
 @property (weak, atomic) IBOutlet UITextField *loginPasswordField;
 - (IBAction)loginAction:(id)sender;
