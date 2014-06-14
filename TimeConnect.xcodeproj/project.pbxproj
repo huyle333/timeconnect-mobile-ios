@@ -21,6 +21,7 @@
 		782D05E11938D27400596EC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 782D05DF1938D27400596EC5 /* InfoPlist.strings */; };
 		782D05E31938D27400596EC5 /* TimeConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D05E21938D27400596EC5 /* TimeConnectTests.m */; };
 		7886BAD0194C9CF000F670CB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7886BACF194C9CF000F670CB /* RegisterViewController.m */; };
+		7886BAD3194CEDAD00F670CB /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7886BAD2194CEDAD00F670CB /* CheckViewController.m */; };
 		78A1FC321938DD16001E0228 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC311938DD16001E0228 /* AudioToolbox.framework */; };
 		78A1FC341938DD1B001E0228 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC331938DD1B001E0228 /* CFNetwork.framework */; };
 		78A1FC361938DD29001E0228 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC351938DD29001E0228 /* CoreLocation.framework */; };
@@ -65,6 +66,8 @@
 		782D05E21938D27400596EC5 /* TimeConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeConnectTests.m; sourceTree = "<group>"; };
 		7886BACE194C9CF000F670CB /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		7886BACF194C9CF000F670CB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		7886BAD1194CEDAD00F670CB /* CheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckViewController.h; sourceTree = "<group>"; };
+		7886BAD2194CEDAD00F670CB /* CheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckViewController.m; sourceTree = "<group>"; };
 		78A1FC311938DD16001E0228 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		78A1FC331938DD1B001E0228 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		78A1FC351938DD29001E0228 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -161,6 +164,8 @@
 				78D3DC1B19409BDA005369EF /* LoginViewController.h */,
 				7886BACE194C9CF000F670CB /* RegisterViewController.h */,
 				7886BACF194C9CF000F670CB /* RegisterViewController.m */,
+				7886BAD1194CEDAD00F670CB /* CheckViewController.h */,
+				7886BAD2194CEDAD00F670CB /* CheckViewController.m */,
 				78D3DC1C19409BDA005369EF /* LoginViewController.m */,
 				782D05CC1938D27400596EC5 /* AppDelegate.h */,
 				782D05CD1938D27400596EC5 /* AppDelegate.m */,
@@ -300,6 +305,7 @@
 				782D05CE1938D27400596EC5 /* AppDelegate.m in Sources */,
 				782D05CA1938D27400596EC5 /* main.m in Sources */,
 				78D3DC1D19409BDA005369EF /* LoginViewController.m in Sources */,
+				7886BAD3194CEDAD00F670CB /* CheckViewController.m in Sources */,
 				7886BAD0194C9CF000F670CB /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

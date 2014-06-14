@@ -79,6 +79,13 @@
         if(!error){
             NSLog(@"Registration success!");
             [self performSegueWithIdentifier:@"login" sender:self];
+            _firstName.text = nil;
+            _lastName = nil;
+            _userName = nil;
+            _company = nil;
+            _companyEmail = nil;
+            _passwordField = nil;
+            _reenterPasswordField = nil;
         }else{
             NSLog(@"There was an error in registration");
         }

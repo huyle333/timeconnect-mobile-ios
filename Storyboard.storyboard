@@ -105,10 +105,10 @@
             </objects>
             <point key="canvasLocation" x="239" y="-23"/>
         </scene>
-        <!--View Controller - Item 1-->
+        <!--Check View Controller - Item 1-->
         <scene sceneID="Q6c-jC-zpd">
             <objects>
-                <viewController id="mQT-89-qqM" sceneMemberID="viewController">
+                <viewController id="mQT-89-qqM" customClass="CheckViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yXP-ca-T9G"/>
                         <viewControllerLayoutGuide type="bottom" id="mAj-7y-9Gv"/>
