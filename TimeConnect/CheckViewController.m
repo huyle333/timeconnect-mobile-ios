@@ -25,7 +25,21 @@
 
 - (void)viewDidLoad
 {
-    [self fetchSSIDInfo];
+    [super viewDidLoad];
+    NSDateFormatter *formatter;
+    NSString        *dateString;
+    
+    formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"MM-dd-yyyy HH:mm"];
+    
+    dateString = [formatter stringFromDate:[NSDate date]];
+    PFObject *timeSheet = [PFObject objectWithClassName:@"TimeSheet"];
+    PFUser *user = [PFUser currentUser];
+    timeSheet[@"username"] = user.username;
+    if(timeSheet[@"timeIn"] == NULL){
+        timeSheet[@"timeIn"] = dateString;
+    }
+    [timeSheet saveInBackground];
     // Do any additional setup after loading the view.
 }
 
@@ -48,6 +62,32 @@
         if (info && [info count]) { break; }
     }
     return info;
+}
+
+
+BOOL localWiFiAvailable()
+{
+    struct ifaddrs *addresses;
+    struct ifaddrs *cursor;
+    BOOL wiFiAvailable = NO;
+    if (getifaddrs(&addresses) != 0) return NO;
+    
+    cursor = addresses;
+    while (cursor != NULL) {
+    	if (cursor -> ifa_addr -> sa_family == AF_INET
+    		&& !(cursor -> ifa_flags & IFF_LOOPBACK)) // Ignore the loopback address
+    	{
+    		// Check for WiFi adapter
+    		if (strcmp(cursor -> ifa_name, "en0") == 0) {
+    			wiFiAvailable = YES;
+    			break;
+    		}
+    	}
+    	cursor = cursor -> ifa_next;
+    }
+    
+    freeifaddrs(addresses);
+    return wiFiAvailable;
 }
 
 /*
