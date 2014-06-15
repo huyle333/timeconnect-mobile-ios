@@ -29,10 +29,22 @@
     NSString        *dateString;
     
     formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"MM-dd-yyyy HH:mm"];
+    [formatter setDateFormat:@"MM-dd-yyyy"];
     
     dateString = [formatter stringFromDate:[NSDate date]];
     return dateString;
+}
+
+- (NSString *)currentTime
+{
+    NSDateFormatter *formatter;
+    NSString        *timeString;
+    
+    formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"HH:mm"];
+    
+    timeString = [formatter stringFromDate:[NSDate date]];
+    return timeString;
 }
 
 - (void)viewDidLoad
@@ -61,7 +73,8 @@
         }
     }];
     if(timeSheet[@"timeIn"] == NULL){
-        //timeSheet[@"timeIn"] = [self currentDate];
+        timeSheet[@"timeIn"] = [self currentTime];
+        timeSheet[@"Date"] = [self currentDate];
     }
     [timeSheet saveInBackground];
     // Do any additional setup after loading the view.
