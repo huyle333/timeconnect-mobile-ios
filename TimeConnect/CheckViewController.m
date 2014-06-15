@@ -53,13 +53,13 @@
     PFUser *user = [PFUser currentUser];
     PFObject *timeSheet = [PFObject objectWithClassName:@"TimeSheet"];
     timeSheet[@"username"] = user.username;
-    PFQuery *timeOutQuery = [PFQuery queryWithClassName:@"TimeSheet"];
-    [timeOutQuery whereKeyDoesNotExist:@"timeOut"];
-    [timeOutQuery getFirstObjectInBackgroundWithBlock:^(PFObject *timeOutObject, NSError *error){
-        if(!timeOutObject){
+    PFQuery *timeInQuery = [PFQuery queryWithClassName:@"TimeSheet"];
+    [timeInQuery whereKey:@"Date" equalTo:[self currentDate]];
+    [timeInQuery getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error){
+        if(!object){
             timeSheet[@"timeIn"] = [self currentDate];
         }else{
-            [timeOutObject setObject:[self currentDate] forKey:@"timeOut"];
+            [object setObject:[self currentDate] forKey:@"timeOut"];
         }
     }];
     PFQuery *query = [PFQuery queryWithClassName:@"TimeSheet"];
@@ -72,10 +72,10 @@
             NSLog(@"Error: %@ %@", error, [error userInfo]);
         }
     }];
-    if(timeSheet[@"timeIn"] == NULL){
+    /*if(timeSheet[@"timeIn"] == NULL){
         timeSheet[@"timeIn"] = [self currentTime];
         timeSheet[@"Date"] = [self currentDate];
-    }
+    }*/
     [timeSheet saveInBackground];
     // Do any additional setup after loading the view.
 }
