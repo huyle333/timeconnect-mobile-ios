@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+    [self fetchSSIDInfo];
     // Do any additional setup after loading the view.
 }
 
@@ -33,6 +33,21 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (id)fetchSSIDInfo {
+    NSArray *ifs = (__bridge_transfer id)CNCopySupportedInterfaces();
+    NSLog(@"Supported interfaces: %@", ifs);
+    if (!ifs || !ifs.count){
+        
+    }
+    id info = nil;
+    for (NSString *ifnam in ifs) {
+        info = (__bridge_transfer id)CNCopyCurrentNetworkInfo((__bridge CFStringRef)ifnam);
+        NSLog(@"%@ => %@", ifnam, info);
+        if (info && [info count]) { break; }
+    }
+    return info;
 }
 
 /*

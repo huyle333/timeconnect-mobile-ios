@@ -105,7 +105,7 @@
             </objects>
             <point key="canvasLocation" x="239" y="-23"/>
         </scene>
-        <!--Check View Controller - Item 1-->
+        <!--Check View Controller - Wifi Mode-->
         <scene sceneID="Q6c-jC-zpd">
             <objects>
                 <viewController id="mQT-89-qqM" customClass="CheckViewController" sceneMemberID="viewController">
@@ -118,7 +118,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="AqA-Zv-O8S"/>
+                    <tabBarItem key="tabBarItem" title="Wifi Mode" id="AqA-Zv-O8S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NmK-ej-6eg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -144,10 +144,10 @@
             </objects>
             <point key="canvasLocation" x="1322" y="-324"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--View Controller - GPS Mode-->
         <scene sceneID="9Lx-cN-fuD">
             <objects>
-                <viewController id="7qT-9A-SPU" sceneMemberID="viewController">
+                <viewController id="7qT-9A-SPU" customClass="GPSViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fFw-45-Kud"/>
                         <viewControllerLayoutGuide type="bottom" id="BUL-3y-5aD"/>
@@ -157,7 +157,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="s7a-P3-xRI"/>
+                    <tabBarItem key="tabBarItem" title="GPS Mode" id="s7a-P3-xRI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZiE-Pw-uun" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

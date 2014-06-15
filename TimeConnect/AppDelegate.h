@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
 
+//Add location framework
+#import <CoreLocation/CoreLocation.h>
+
+//Google Maps
+#import <GoogleMaps/GoogleMaps.h>
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

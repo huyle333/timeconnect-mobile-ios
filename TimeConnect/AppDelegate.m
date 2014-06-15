@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <Parse/Parse.h>
 
 @implementation AppDelegate
 
@@ -17,6 +16,9 @@
     // Override point for customization after application launch.
     // self.window.backgroundColor = [UIColor whiteColor];
     // [self.window makeKeyAndVisible];
+    
+    //Google Map API
+    [GMSServices provideAPIKey:@"AIzaSyAfnFOR93oElN1Wet70HsXu8suJP3_517w"];
     
     //Establish Parse connection
     [Parse setApplicationId:@"VHJSk9hmfDIoXsrRE3V7KWM6KHkncJwYfslUp10A"

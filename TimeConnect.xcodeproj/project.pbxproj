@@ -22,6 +22,15 @@
 		782D05E31938D27400596EC5 /* TimeConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D05E21938D27400596EC5 /* TimeConnectTests.m */; };
 		7886BAD0194C9CF000F670CB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7886BACF194C9CF000F670CB /* RegisterViewController.m */; };
 		7886BAD3194CEDAD00F670CB /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7886BAD2194CEDAD00F670CB /* CheckViewController.m */; };
+		7886BAD7194D10D400F670CB /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BAD6194D10D400F670CB /* GoogleMaps.framework */; };
+		7886BAD9194D10F100F670CB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BAD8194D10F100F670CB /* OpenGLES.framework */; };
+		7886BADB194D10FB00F670CB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BADA194D10FB00F670CB /* ImageIO.framework */; };
+		7886BADD194D110100F670CB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BADC194D110100F670CB /* GLKit.framework */; };
+		7886BADF194D110800F670CB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BADE194D110800F670CB /* CoreText.framework */; };
+		7886BAE1194D110F00F670CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BAE0194D110F00F670CB /* CoreData.framework */; };
+		7886BAE3194D111800F670CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BAE2194D111800F670CB /* AVFoundation.framework */; };
+		7886BAE7194D116F00F670CB /* GPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7886BAE6194D116F00F670CB /* GPSViewController.m */; };
+		7886BAE9194D1AA800F670CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05D61938D27400596EC5 /* XCTest.framework */; };
 		78A1FC321938DD16001E0228 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC311938DD16001E0228 /* AudioToolbox.framework */; };
 		78A1FC341938DD1B001E0228 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC331938DD1B001E0228 /* CFNetwork.framework */; };
 		78A1FC361938DD29001E0228 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC351938DD29001E0228 /* CoreLocation.framework */; };
@@ -68,6 +77,15 @@
 		7886BACF194C9CF000F670CB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		7886BAD1194CEDAD00F670CB /* CheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckViewController.h; sourceTree = "<group>"; };
 		7886BAD2194CEDAD00F670CB /* CheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckViewController.m; sourceTree = "<group>"; };
+		7886BAD6194D10D400F670CB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		7886BAD8194D10F100F670CB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7886BADA194D10FB00F670CB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7886BADC194D110100F670CB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		7886BADE194D110800F670CB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7886BAE0194D110F00F670CB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7886BAE2194D111800F670CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7886BAE5194D116F00F670CB /* GPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSViewController.h; sourceTree = "<group>"; };
+		7886BAE6194D116F00F670CB /* GPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSViewController.m; sourceTree = "<group>"; };
 		78A1FC311938DD16001E0228 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		78A1FC331938DD1B001E0228 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		78A1FC351938DD29001E0228 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -88,6 +106,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7886BAE9194D1AA800F670CB /* XCTest.framework in Frameworks */,
+				782D05C21938D27400596EC5 /* UIKit.framework in Frameworks */,
+				782D05C01938D27400596EC5 /* CoreGraphics.framework in Frameworks */,
+				782D05BE1938D27400596EC5 /* Foundation.framework in Frameworks */,
+				78A1FC361938DD29001E0228 /* CoreLocation.framework in Frameworks */,
+				7886BAE3194D111800F670CB /* AVFoundation.framework in Frameworks */,
+				7886BAE1194D110F00F670CB /* CoreData.framework in Frameworks */,
+				7886BADF194D110800F670CB /* CoreText.framework in Frameworks */,
+				7886BADD194D110100F670CB /* GLKit.framework in Frameworks */,
+				7886BADB194D10FB00F670CB /* ImageIO.framework in Frameworks */,
+				7886BAD9194D10F100F670CB /* OpenGLES.framework in Frameworks */,
 				78A1FC421938DD4E001E0228 /* SystemConfiguration.framework in Frameworks */,
 				78A1FC401938DD44001E0228 /* StoreKit.framework in Frameworks */,
 				78A1FC3E1938DD3F001E0228 /* Security.framework in Frameworks */,
@@ -95,12 +124,9 @@
 				78A1FC3A1938DD34001E0228 /* MobileCoreServices.framework in Frameworks */,
 				78A1FC381938DD2F001E0228 /* libz.dylib in Frameworks */,
 				78A1FC441938DDDB001E0228 /* Parse.framework in Frameworks */,
-				78A1FC361938DD29001E0228 /* CoreLocation.framework in Frameworks */,
-				782D05C01938D27400596EC5 /* CoreGraphics.framework in Frameworks */,
+				7886BAD7194D10D400F670CB /* GoogleMaps.framework in Frameworks */,
 				78A1FC341938DD1B001E0228 /* CFNetwork.framework in Frameworks */,
 				78A1FC321938DD16001E0228 /* AudioToolbox.framework in Frameworks */,
-				782D05C21938D27400596EC5 /* UIKit.framework in Frameworks */,
-				782D05BE1938D27400596EC5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +165,13 @@
 		782D05BC1938D27400596EC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7886BAE2194D111800F670CB /* AVFoundation.framework */,
+				7886BAE0194D110F00F670CB /* CoreData.framework */,
+				7886BADE194D110800F670CB /* CoreText.framework */,
+				7886BADC194D110100F670CB /* GLKit.framework */,
+				7886BADA194D10FB00F670CB /* ImageIO.framework */,
+				7886BAD8194D10F100F670CB /* OpenGLES.framework */,
+				7886BAD6194D10D400F670CB /* GoogleMaps.framework */,
 				78A1FC431938DDDB001E0228 /* Parse.framework */,
 				78A1FC411938DD4E001E0228 /* SystemConfiguration.framework */,
 				78A1FC3F1938DD44001E0228 /* StoreKit.framework */,
@@ -166,6 +199,8 @@
 				7886BACF194C9CF000F670CB /* RegisterViewController.m */,
 				7886BAD1194CEDAD00F670CB /* CheckViewController.h */,
 				7886BAD2194CEDAD00F670CB /* CheckViewController.m */,
+				7886BAE5194D116F00F670CB /* GPSViewController.h */,
+				7886BAE6194D116F00F670CB /* GPSViewController.m */,
 				78D3DC1C19409BDA005369EF /* LoginViewController.m */,
 				782D05CC1938D27400596EC5 /* AppDelegate.h */,
 				782D05CD1938D27400596EC5 /* AppDelegate.m */,
@@ -305,6 +340,7 @@
 				782D05CE1938D27400596EC5 /* AppDelegate.m in Sources */,
 				782D05CA1938D27400596EC5 /* main.m in Sources */,
 				78D3DC1D19409BDA005369EF /* LoginViewController.m in Sources */,
+				7886BAE7194D116F00F670CB /* GPSViewController.m in Sources */,
 				7886BAD3194CEDAD00F670CB /* CheckViewController.m in Sources */,
 				7886BAD0194C9CF000F670CB /* RegisterViewController.m in Sources */,
 			);
@@ -428,10 +464,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimeConnect/TimeConnect-Prefix.pch";
 				INFOPLIST_FILE = "TimeConnect/TimeConnect-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -446,10 +484,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimeConnect/TimeConnect-Prefix.pch";
 				INFOPLIST_FILE = "TimeConnect/TimeConnect-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
