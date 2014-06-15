@@ -30,7 +30,6 @@
 		7886BAE1194D110F00F670CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BAE0194D110F00F670CB /* CoreData.framework */; };
 		7886BAE3194D111800F670CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BAE2194D111800F670CB /* AVFoundation.framework */; };
 		7886BAE7194D116F00F670CB /* GPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7886BAE6194D116F00F670CB /* GPSViewController.m */; };
-		7886BAE9194D1AA800F670CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05D61938D27400596EC5 /* XCTest.framework */; };
 		78A1FC321938DD16001E0228 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC311938DD16001E0228 /* AudioToolbox.framework */; };
 		78A1FC341938DD1B001E0228 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC331938DD1B001E0228 /* CFNetwork.framework */; };
 		78A1FC361938DD29001E0228 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC351938DD29001E0228 /* CoreLocation.framework */; };
@@ -41,6 +40,11 @@
 		78A1FC401938DD44001E0228 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC3F1938DD44001E0228 /* StoreKit.framework */; };
 		78A1FC421938DD4E001E0228 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC411938DD4E001E0228 /* SystemConfiguration.framework */; };
 		78A1FC441938DDDB001E0228 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC431938DDDB001E0228 /* Parse.framework */; };
+		78AA7AB0194DB772001C82EE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AA7AAF194DB772001C82EE /* libc++.dylib */; };
+		78AA7AB2194DB782001C82EE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AA7AB1194DB782001C82EE /* libicucore.dylib */; };
+		78AA7AB4194DB898001C82EE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AA7AB3194DB898001C82EE /* Social.framework */; };
+		78AA7AB6194DB89E001C82EE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AA7AB5194DB89E001C82EE /* Accounts.framework */; };
+		78AA7AB9194DB95B001C82EE /* FBMissingSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA7AB8194DB95B001C82EE /* FBMissingSymbols.m */; };
 		78D3DC1A19409B4B005369EF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D3DC1919409B4B005369EF /* Storyboard.storyboard */; };
 		78D3DC1D19409BDA005369EF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D3DC1C19409BDA005369EF /* LoginViewController.m */; };
 /* End PBXBuildFile section */
@@ -96,6 +100,12 @@
 		78A1FC3F1938DD44001E0228 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		78A1FC411938DD4E001E0228 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		78A1FC431938DDDB001E0228 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		78AA7AAF194DB772001C82EE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		78AA7AB1194DB782001C82EE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		78AA7AB3194DB898001C82EE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		78AA7AB5194DB89E001C82EE /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		78AA7AB7194DB95B001C82EE /* FBMissingSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMissingSymbols.h; sourceTree = "<group>"; };
+		78AA7AB8194DB95B001C82EE /* FBMissingSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMissingSymbols.m; sourceTree = "<group>"; };
 		78D3DC1919409B4B005369EF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		78D3DC1B19409BDA005369EF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		78D3DC1C19409BDA005369EF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -106,7 +116,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7886BAE9194D1AA800F670CB /* XCTest.framework in Frameworks */,
+				78AA7AB6194DB89E001C82EE /* Accounts.framework in Frameworks */,
+				78AA7AB4194DB898001C82EE /* Social.framework in Frameworks */,
+				78A1FC381938DD2F001E0228 /* libz.dylib in Frameworks */,
+				78AA7AB2194DB782001C82EE /* libicucore.dylib in Frameworks */,
+				78AA7AB0194DB772001C82EE /* libc++.dylib in Frameworks */,
 				782D05C21938D27400596EC5 /* UIKit.framework in Frameworks */,
 				782D05C01938D27400596EC5 /* CoreGraphics.framework in Frameworks */,
 				782D05BE1938D27400596EC5 /* Foundation.framework in Frameworks */,
@@ -122,7 +136,6 @@
 				78A1FC3E1938DD3F001E0228 /* Security.framework in Frameworks */,
 				78A1FC3C1938DD3A001E0228 /* QuartzCore.framework in Frameworks */,
 				78A1FC3A1938DD34001E0228 /* MobileCoreServices.framework in Frameworks */,
-				78A1FC381938DD2F001E0228 /* libz.dylib in Frameworks */,
 				78A1FC441938DDDB001E0228 /* Parse.framework in Frameworks */,
 				7886BAD7194D10D400F670CB /* GoogleMaps.framework in Frameworks */,
 				78A1FC341938DD1B001E0228 /* CFNetwork.framework in Frameworks */,
@@ -146,6 +159,8 @@
 		782D05B11938D27400596EC5 = {
 			isa = PBXGroup;
 			children = (
+				78AA7AB7194DB95B001C82EE /* FBMissingSymbols.h */,
+				78AA7AB8194DB95B001C82EE /* FBMissingSymbols.m */,
 				782D05C31938D27400596EC5 /* TimeConnect */,
 				782D05DC1938D27400596EC5 /* TimeConnectTests */,
 				782D05BC1938D27400596EC5 /* Frameworks */,
@@ -165,6 +180,10 @@
 		782D05BC1938D27400596EC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78AA7AB5194DB89E001C82EE /* Accounts.framework */,
+				78AA7AB3194DB898001C82EE /* Social.framework */,
+				78AA7AB1194DB782001C82EE /* libicucore.dylib */,
+				78AA7AAF194DB772001C82EE /* libc++.dylib */,
 				7886BAE2194D111800F670CB /* AVFoundation.framework */,
 				7886BAE0194D110F00F670CB /* CoreData.framework */,
 				7886BADE194D110800F670CB /* CoreText.framework */,
@@ -338,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				782D05CE1938D27400596EC5 /* AppDelegate.m in Sources */,
+				78AA7AB9194DB95B001C82EE /* FBMissingSymbols.m in Sources */,
 				782D05CA1938D27400596EC5 /* main.m in Sources */,
 				78D3DC1D19409BDA005369EF /* LoginViewController.m in Sources */,
 				7886BAE7194D116F00F670CB /* GPSViewController.m in Sources */,
@@ -469,7 +489,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimeConnect/TimeConnect-Prefix.pch";
 				INFOPLIST_FILE = "TimeConnect/TimeConnect-Info.plist";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -489,7 +509,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimeConnect/TimeConnect-Prefix.pch";
 				INFOPLIST_FILE = "TimeConnect/TimeConnect-Info.plist";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
