@@ -50,8 +50,18 @@
             [timeOutObject setObject:[self currentDate] forKey:@"timeOut"];
         }
     }];
+    PFQuery *query = [PFQuery queryWithClassName:@"TimeSheet"];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            NSLog(@"Hello world");
+            // The find succeeded. The first 100 objects are available in objects
+        } else {
+            // Log details of the failure
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
     if(timeSheet[@"timeIn"] == NULL){
-        timeSheet[@"timeIn"] = [self currentDate];
+        //timeSheet[@"timeIn"] = [self currentDate];
     }
     [timeSheet saveInBackground];
     // Do any additional setup after loading the view.
