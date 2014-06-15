@@ -23,9 +23,8 @@
     return self;
 }
 
-- (void)viewDidLoad
+- (NSString *)currentDate
 {
-    [super viewDidLoad];
     NSDateFormatter *formatter;
     NSString        *dateString;
     
@@ -33,11 +32,26 @@
     [formatter setDateFormat:@"MM-dd-yyyy HH:mm"];
     
     dateString = [formatter stringFromDate:[NSDate date]];
+    return dateString;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    PFQuery *timeOutQuery = [PFQuery queryWithClassName:@"TimeSheet"];
     PFObject *timeSheet = [PFObject objectWithClassName:@"TimeSheet"];
     PFUser *user = [PFUser currentUser];
     timeSheet[@"username"] = user.username;
+    [timeOutQuery whereKey:@"timeOut" equalTo:NULL];
+    [timeOutQuery getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error){
+        if(!object){
+            
+        }else{
+            
+        }
+    }];
     if(timeSheet[@"timeIn"] == NULL){
-        timeSheet[@"timeIn"] = dateString;
+        timeSheet[@"timeIn"] = [self currentDate];
     }
     [timeSheet saveInBackground];
     // Do any additional setup after loading the view.
