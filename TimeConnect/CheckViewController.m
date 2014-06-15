@@ -38,16 +38,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    PFQuery *timeOutQuery = [PFQuery queryWithClassName:@"TimeSheet"];
-    PFObject *timeSheet = [PFObject objectWithClassName:@"TimeSheet"];
     PFUser *user = [PFUser currentUser];
+    PFObject *timeSheet = [PFObject objectWithClassName:@"TimeSheet"];
     timeSheet[@"username"] = user.username;
-    [timeOutQuery whereKey:@"timeOut" equalTo:NULL];
-    [timeOutQuery getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error){
-        if(!object){
-            
+    PFQuery *timeOutQuery = [PFQuery queryWithClassName:@"TimeSheet"];
+    [timeOutQuery whereKeyDoesNotExist:@"timeOut"];
+    [timeOutQuery getFirstObjectInBackgroundWithBlock:^(PFObject *timeOutObject, NSError *error){
+        if(!timeOutObject){
+            timeSheet[@"timeIn"] = [self currentDate];
         }else{
-            
+            [timeOutObject setObject:[self currentDate] forKey:@"timeOut"];
         }
     }];
     if(timeSheet[@"timeIn"] == NULL){
