@@ -48,8 +48,6 @@
 		78D3DC1A19409B4B005369EF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D3DC1919409B4B005369EF /* Storyboard.storyboard */; };
 		78D3DC1D19409BDA005369EF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D3DC1C19409BDA005369EF /* LoginViewController.m */; };
 		D559C7DF1952145C006B93B9 /* CurrentTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D559C7DE1952145C006B93B9 /* CurrentTimeViewController.m */; };
-		D559C7E119521F15006B93B9 /* clock-7.png in Resources */ = {isa = PBXBuildFile; fileRef = D559C7E019521F15006B93B9 /* clock-7.png */; };
-		D559C7E319522105006B93B9 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = D559C7E219522105006B93B9 /* clock.png */; };
 		D559C7E519522166006B93B9 /* clock-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D559C7E419522166006B93B9 /* clock-32.png */; };
 		D559C7E7195221B0006B93B9 /* calendar-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D559C7E6195221B0006B93B9 /* calendar-32.png */; };
 		D559C7E9195221E5006B93B9 /* settings3-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D559C7E8195221E5006B93B9 /* settings3-32.png */; };
@@ -117,8 +115,6 @@
 		78D3DC1C19409BDA005369EF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		D559C7DD1952145C006B93B9 /* CurrentTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentTimeViewController.h; sourceTree = "<group>"; };
 		D559C7DE1952145C006B93B9 /* CurrentTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentTimeViewController.m; sourceTree = "<group>"; };
-		D559C7E019521F15006B93B9 /* clock-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clock-7.png"; path = "../../../Downloads/[iPlaySoft.com]扁平化与线条图标(第一辑)/iOS Tab Bar Icons/iconbeast-lite-7/iconbeast lite 7 - png/clock-7.png"; sourceTree = "<group>"; };
-		D559C7E219522105006B93B9 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
 		D559C7E419522166006B93B9 /* clock-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-32.png"; sourceTree = "<group>"; };
 		D559C7E6195221B0006B93B9 /* calendar-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-32.png"; sourceTree = "<group>"; };
 		D559C7E8195221E5006B93B9 /* settings3-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings3-32.png"; sourceTree = "<group>"; };
@@ -250,8 +246,6 @@
 				D559C7E8195221E5006B93B9 /* settings3-32.png */,
 				D559C7E6195221B0006B93B9 /* calendar-32.png */,
 				D559C7E419522166006B93B9 /* clock-32.png */,
-				D559C7E219522105006B93B9 /* clock.png */,
-				D559C7E019521F15006B93B9 /* clock-7.png */,
 				78017C011940CB4700CEF3ED /* TimeConnectlogo.png */,
 				782D05C51938D27400596EC5 /* TimeConnect-Info.plist */,
 				782D05C61938D27400596EC5 /* InfoPlist.strings */,
@@ -358,14 +352,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D559C7E9195221E5006B93B9 /* settings3-32.png in Resources */,
-				D559C7E319522105006B93B9 /* clock.png in Resources */,
 				D559C7E519522166006B93B9 /* clock-32.png in Resources */,
 				78017C021940CB4700CEF3ED /* TimeConnectlogo.png in Resources */,
 				782D05C81938D27400596EC5 /* InfoPlist.strings in Resources */,
 				782D05D01938D27400596EC5 /* Images.xcassets in Resources */,
 				78D3DC1A19409B4B005369EF /* Storyboard.storyboard in Resources */,
 				D559C7E7195221B0006B93B9 /* calendar-32.png in Resources */,
-				D559C7E119521F15006B93B9 /* clock-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
