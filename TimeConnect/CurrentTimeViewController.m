@@ -32,7 +32,7 @@
                                                         NSForegroundColorAttributeName : [UIColor colorWithRed:.5 green:.5 blue:.5 alpha:1]
                                                         } forState:UIControlStateNormal];
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
-                                                        NSForegroundColorAttributeName : [UIColor colorWithRed:.0 green:.0 blue:.0 alpha:1]
+                                                        NSForegroundColorAttributeName : [UIColor colorWithRed:.24 green:.43 blue:.84 alpha:1]
                                                         } forState:UIControlStateSelected];
     // Do any additional setup after loading the view.
 }

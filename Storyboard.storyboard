@@ -149,7 +149,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.23711361040000001" green="0.43289935159999998" blue="0.83438297189999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" id="AqA-Zv-O8S"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="Settings" image="settings3-32.png" id="AqA-Zv-O8S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NmK-ej-6eg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -189,7 +189,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.23711361040000001" green="0.43289935159999998" blue="0.83438297189999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Current Time" id="vH6-M7-pKP"/>
+                    <tabBarItem key="tabBarItem" title="Current Time" image="clock-32.png" id="vH6-M7-pKP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="paF-pT-hPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -208,7 +208,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.23711361040000001" green="0.43289935159999998" blue="0.83438297189999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Weekly View" id="s7a-P3-xRI"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="Weekly View" image="calendar-32.png" id="s7a-P3-xRI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZiE-Pw-uun" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -322,6 +322,11 @@
             <point key="canvasLocation" x="770" y="301"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar-32.png" width="32" height="32"/>
+        <image name="clock-32.png" width="32" height="32"/>
+        <image name="settings3-32.png" width="32" height="32"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
