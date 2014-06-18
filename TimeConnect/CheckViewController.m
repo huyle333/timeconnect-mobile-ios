@@ -50,10 +50,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    PFUser *user = [PFUser currentUser];
+    //PFUser *user = [PFUser currentUser];
     PFObject *timeSheet = [PFObject objectWithClassName:@"TimeSheet"];
-    timeSheet[@"username"] = user.username;
-    PFQuery *timeInQuery = [PFQuery queryWithClassName:@"TimeSheet"];
+    //timeSheet[@"username"] = user.username;
+    /*PFQuery *timeInQuery = [PFQuery queryWithClassName:@"TimeSheet"];
     [timeInQuery whereKey:@"Date" equalTo:[self currentDate]];
     [timeInQuery getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error){
         if(!object){
@@ -71,7 +71,7 @@
             // Log details of the failure
             NSLog(@"Error: %@ %@", error, [error userInfo]);
         }
-    }];
+    }];*/
     /*if(timeSheet[@"timeIn"] == NULL){
         timeSheet[@"timeIn"] = [self currentTime];
         timeSheet[@"Date"] = [self currentDate];
