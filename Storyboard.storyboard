@@ -176,10 +176,10 @@
             </objects>
             <point key="canvasLocation" x="1322" y="-324"/>
         </scene>
-        <!--View Controller - Current Time-->
+        <!--Current Time View Controller - Current Time-->
         <scene sceneID="3SF-BY-kbc">
             <objects>
-                <viewController id="2HR-Xx-4Fk" sceneMemberID="viewController">
+                <viewController id="2HR-Xx-4Fk" customClass="CurrentTimeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Nae-1T-Py0"/>
                         <viewControllerLayoutGuide type="bottom" id="kto-W7-2O8"/>
@@ -187,13 +187,13 @@
                     <view key="view" contentMode="scaleToFill" id="U5N-nP-9S2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.23711361040000001" green="0.43289935159999998" blue="0.83438297189999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Current Time" id="vH6-M7-pKP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="paF-pT-hPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1338" y="376"/>
+            <point key="canvasLocation" x="1322" y="350"/>
         </scene>
         <!--View Controller - Weekly View-->
         <scene sceneID="9Lx-cN-fuD">
@@ -328,6 +328,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="lUX-Su-iHg"/>
+        <segue reference="rGK-Hw-UEY"/>
     </inferredMetricsTieBreakers>
 </document>

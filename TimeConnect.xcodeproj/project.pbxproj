@@ -47,6 +47,7 @@
 		78AA7AB9194DB95B001C82EE /* FBMissingSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA7AB8194DB95B001C82EE /* FBMissingSymbols.m */; };
 		78D3DC1A19409B4B005369EF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D3DC1919409B4B005369EF /* Storyboard.storyboard */; };
 		78D3DC1D19409BDA005369EF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D3DC1C19409BDA005369EF /* LoginViewController.m */; };
+		D559C7DF1952145C006B93B9 /* CurrentTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D559C7DE1952145C006B93B9 /* CurrentTimeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,8 @@
 		78D3DC1919409B4B005369EF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		78D3DC1B19409BDA005369EF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		78D3DC1C19409BDA005369EF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D559C7DD1952145C006B93B9 /* CurrentTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentTimeViewController.h; sourceTree = "<group>"; };
+		D559C7DE1952145C006B93B9 /* CurrentTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentTimeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				78D3DC1919409B4B005369EF /* Storyboard.storyboard */,
+				D559C7DD1952145C006B93B9 /* CurrentTimeViewController.h */,
+				D559C7DE1952145C006B93B9 /* CurrentTimeViewController.m */,
 				78D3DC1B19409BDA005369EF /* LoginViewController.h */,
 				7886BACE194C9CF000F670CB /* RegisterViewController.h */,
 				7886BACF194C9CF000F670CB /* RegisterViewController.m */,
@@ -366,6 +371,7 @@
 				7886BAE7194D116F00F670CB /* GPSViewController.m in Sources */,
 				7886BAD3194CEDAD00F670CB /* CheckViewController.m in Sources */,
 				7886BAD0194C9CF000F670CB /* RegisterViewController.m in Sources */,
+				D559C7DF1952145C006B93B9 /* CurrentTimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
