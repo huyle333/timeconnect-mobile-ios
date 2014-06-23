@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *reenterPasswordField;
 - (IBAction)registerAction:(id)sender;
 - (IBAction)textFieldReturn:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *secretButton;
 
 
 @end

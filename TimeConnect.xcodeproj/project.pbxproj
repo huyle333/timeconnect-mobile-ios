@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		78017C021940CB4700CEF3ED /* TimeConnectlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 78017C011940CB4700CEF3ED /* TimeConnectlogo.png */; };
+		7807399A19587FAF00C32C1C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7807399919587FAF00C32C1C /* SettingsViewController.m */; };
+		780739A41958855E00C32C1C /* timeconnect1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7807399F1958855E00C32C1C /* timeconnect1024.jpg */; };
+		780739A8195887CE00C32C1C /* timeconnect120.png in Resources */ = {isa = PBXBuildFile; fileRef = 780739A7195887CE00C32C1C /* timeconnect120.png */; };
+		780739AA1958889600C32C1C /* timeconnect60.png in Resources */ = {isa = PBXBuildFile; fileRef = 780739A91958889600C32C1C /* timeconnect60.png */; };
 		782D05BE1938D27400596EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05BD1938D27400596EC5 /* Foundation.framework */; };
 		782D05C01938D27400596EC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05BF1938D27400596EC5 /* CoreGraphics.framework */; };
 		782D05C21938D27400596EC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05C11938D27400596EC5 /* UIKit.framework */; };
@@ -45,6 +49,7 @@
 		78AA7AB4194DB898001C82EE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AA7AB3194DB898001C82EE /* Social.framework */; };
 		78AA7AB6194DB89E001C82EE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AA7AB5194DB89E001C82EE /* Accounts.framework */; };
 		78AA7AB9194DB95B001C82EE /* FBMissingSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA7AB8194DB95B001C82EE /* FBMissingSymbols.m */; };
+		78B87BDF195369B100531302 /* timeconnectbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78B87BDE195369B100531302 /* timeconnectbg.jpg */; };
 		78D3DC1A19409B4B005369EF /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D3DC1919409B4B005369EF /* Storyboard.storyboard */; };
 		78D3DC1D19409BDA005369EF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D3DC1C19409BDA005369EF /* LoginViewController.m */; };
 		D559C7DF1952145C006B93B9 /* CurrentTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D559C7DE1952145C006B93B9 /* CurrentTimeViewController.m */; };
@@ -65,6 +70,11 @@
 
 /* Begin PBXFileReference section */
 		78017C011940CB4700CEF3ED /* TimeConnectlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeConnectlogo.png; sourceTree = "<group>"; };
+		7807399819587FAF00C32C1C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		7807399919587FAF00C32C1C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		7807399F1958855E00C32C1C /* timeconnect1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timeconnect1024.jpg; sourceTree = "<group>"; };
+		780739A7195887CE00C32C1C /* timeconnect120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeconnect120.png; sourceTree = "<group>"; };
+		780739A91958889600C32C1C /* timeconnect60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeconnect60.png; sourceTree = "<group>"; };
 		782D05BA1938D27400596EC5 /* TimeConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782D05BD1938D27400596EC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		782D05BF1938D27400596EC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -110,6 +120,7 @@
 		78AA7AB5194DB89E001C82EE /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		78AA7AB7194DB95B001C82EE /* FBMissingSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMissingSymbols.h; sourceTree = "<group>"; };
 		78AA7AB8194DB95B001C82EE /* FBMissingSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMissingSymbols.m; sourceTree = "<group>"; };
+		78B87BDE195369B100531302 /* timeconnectbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timeconnectbg.jpg; sourceTree = "<group>"; };
 		78D3DC1919409B4B005369EF /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		78D3DC1B19409BDA005369EF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		78D3DC1C19409BDA005369EF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -224,13 +235,15 @@
 				78D3DC1919409B4B005369EF /* Storyboard.storyboard */,
 				D559C7DD1952145C006B93B9 /* CurrentTimeViewController.h */,
 				D559C7DE1952145C006B93B9 /* CurrentTimeViewController.m */,
-				78D3DC1B19409BDA005369EF /* LoginViewController.h */,
 				7886BACE194C9CF000F670CB /* RegisterViewController.h */,
 				7886BACF194C9CF000F670CB /* RegisterViewController.m */,
 				7886BAD1194CEDAD00F670CB /* CheckViewController.h */,
 				7886BAD2194CEDAD00F670CB /* CheckViewController.m */,
+				7807399819587FAF00C32C1C /* SettingsViewController.h */,
+				7807399919587FAF00C32C1C /* SettingsViewController.m */,
 				7886BAE5194D116F00F670CB /* GPSViewController.h */,
 				7886BAE6194D116F00F670CB /* GPSViewController.m */,
+				78D3DC1B19409BDA005369EF /* LoginViewController.h */,
 				78D3DC1C19409BDA005369EF /* LoginViewController.m */,
 				782D05CC1938D27400596EC5 /* AppDelegate.h */,
 				782D05CD1938D27400596EC5 /* AppDelegate.m */,
@@ -243,6 +256,10 @@
 		782D05C41938D27400596EC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				780739A91958889600C32C1C /* timeconnect60.png */,
+				780739A7195887CE00C32C1C /* timeconnect120.png */,
+				7807399F1958855E00C32C1C /* timeconnect1024.jpg */,
+				78B87BDE195369B100531302 /* timeconnectbg.jpg */,
 				D559C7E8195221E5006B93B9 /* settings3-32.png */,
 				D559C7E6195221B0006B93B9 /* calendar-32.png */,
 				D559C7E419522166006B93B9 /* clock-32.png */,
@@ -352,8 +369,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D559C7E9195221E5006B93B9 /* settings3-32.png in Resources */,
+				780739A41958855E00C32C1C /* timeconnect1024.jpg in Resources */,
 				D559C7E519522166006B93B9 /* clock-32.png in Resources */,
+				78B87BDF195369B100531302 /* timeconnectbg.jpg in Resources */,
 				78017C021940CB4700CEF3ED /* TimeConnectlogo.png in Resources */,
+				780739AA1958889600C32C1C /* timeconnect60.png in Resources */,
+				780739A8195887CE00C32C1C /* timeconnect120.png in Resources */,
 				782D05C81938D27400596EC5 /* InfoPlist.strings in Resources */,
 				782D05D01938D27400596EC5 /* Images.xcassets in Resources */,
 				78D3DC1A19409B4B005369EF /* Storyboard.storyboard in Resources */,
@@ -379,6 +400,7 @@
 				782D05CE1938D27400596EC5 /* AppDelegate.m in Sources */,
 				78AA7AB9194DB95B001C82EE /* FBMissingSymbols.m in Sources */,
 				782D05CA1938D27400596EC5 /* main.m in Sources */,
+				7807399A19587FAF00C32C1C /* SettingsViewController.m in Sources */,
 				78D3DC1D19409BDA005369EF /* LoginViewController.m in Sources */,
 				7886BAE7194D116F00F670CB /* GPSViewController.m in Sources */,
 				7886BAD3194CEDAD00F670CB /* CheckViewController.m in Sources */,

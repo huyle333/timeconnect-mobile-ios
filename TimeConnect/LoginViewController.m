@@ -14,6 +14,8 @@
 
 @implementation LoginViewController
 
+// @synthesize titleLabel;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -30,6 +32,30 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated{
+    _loginUsernameField.alpha = 0.0;
+    _loginPasswordField.alpha = 0.0;
+    _loginButton.alpha = 0.0;
+    _registerButton.alpha = 0.0;
+    _helpButton.alpha = 0.0;
+    _secretButton.alpha = 0.0;
+    
+    [UIView animateWithDuration:0.5 delay: 2.0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+        self.titleLabel.frame=CGRectMake(50, 100, 224, 65);
+        // self.loginUsernameField.frame = CGRectMake(20, 223, 280, 30);
+        // self.loginPasswordField.frame = CGRectMake(20, 268, 280, 30);
+    }
+        completion:^(BOOL finished) {
+            [UIView animateWithDuration:0.5 animations:^{
+                _loginUsernameField.alpha = 1.0;
+                _loginPasswordField.alpha = 1.0;
+                _loginButton.alpha = 1.0;
+                _registerButton.alpha = 1.0;
+                _helpButton.alpha = 1.0;
+            }];
+    }];
+    _loginOverlayView.frame = self.view.frame;
+    self.loginUsernameField.delegate = self;
+    self.loginPasswordField.delegate = self;
     PFUser *user = [PFUser currentUser];
     if (user.username != nil){
         [self performSegueWithIdentifier:@"login" sender: self];
@@ -42,7 +68,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction) textFieldReturn:(id)sender{
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return NO;
+}
+
+- (IBAction)textFieldReturn:(id)sender{
     [sender resignFirstResponder];
 }
 
