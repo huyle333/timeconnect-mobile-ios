@@ -77,7 +77,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aff-2f-YFV">
-                                        <rect key="frame" x="20" y="95" width="30" height="26"/>
+                                        <rect key="frame" x="20" y="379" width="29" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.14033292689999999" green="0.3264850554" blue="0.56875797189999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="!">
@@ -367,7 +367,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBp-2a-tAS">
-                                <rect key="frame" x="20" y="472" width="30" height="30"/>
+                                <rect key="frame" x="20" y="463" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1271247824" green="0.29472065870000003" blue="0.50243144129999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="!">
@@ -412,6 +412,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Trc-Cc-HjA"/>
+        <segue reference="c8D-mg-MCE"/>
     </inferredMetricsTieBreakers>
 </document>
