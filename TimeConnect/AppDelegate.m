@@ -7,15 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "Parse/Parse.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+     //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    // self.window.backgroundColor = [UIColor whiteColor];
-    // [self.window makeKeyAndVisible];
+     //self.window.backgroundColor = [UIColor whiteColor];
+     //[self.window makeKeyAndVisible];
     
     //Google Map API
     [GMSServices provideAPIKey:@"AIzaSyAfnFOR93oElN1Wet70HsXu8suJP3_517w"];
@@ -30,7 +31,17 @@
                                                     UIRemoteNotificationTypeSound];
     
     //Tracks stats around application when opened
-    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    //Test table viewer in application
+    
+    /*UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UINavigationController *navigationController = [tabBarController viewControllers][0];
+    */
+    
+   // testTableViewController.query = [PFQuery queryWithClassName:@"TimeSheet"];
+    //testTableViewController.query = _query;
+    
+    
     
     return YES;
 }

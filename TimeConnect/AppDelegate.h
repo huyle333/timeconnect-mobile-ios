@@ -15,6 +15,8 @@
 //Google Maps
 #import <GoogleMaps/GoogleMaps.h>
 
+@class TestTableViewController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

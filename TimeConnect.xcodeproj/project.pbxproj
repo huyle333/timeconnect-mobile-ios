@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413FC78C1963C7A80004AB90 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 413FC78B1963C7A80004AB90 /* ViewController1.m */; };
 		78017C021940CB4700CEF3ED /* TimeConnectlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 78017C011940CB4700CEF3ED /* TimeConnectlogo.png */; };
 		7807399A19587FAF00C32C1C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7807399919587FAF00C32C1C /* SettingsViewController.m */; };
 		780739A41958855E00C32C1C /* timeconnect1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7807399F1958855E00C32C1C /* timeconnect1024.jpg */; };
@@ -69,6 +70,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		413FC78A1963C7A80004AB90 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		413FC78B1963C7A80004AB90 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		78017C011940CB4700CEF3ED /* TimeConnectlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeConnectlogo.png; sourceTree = "<group>"; };
 		7807399819587FAF00C32C1C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		7807399919587FAF00C32C1C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
@@ -249,6 +252,8 @@
 				782D05CD1938D27400596EC5 /* AppDelegate.m */,
 				782D05CF1938D27400596EC5 /* Images.xcassets */,
 				782D05C41938D27400596EC5 /* Supporting Files */,
+				413FC78A1963C7A80004AB90 /* ViewController1.h */,
+				413FC78B1963C7A80004AB90 /* ViewController1.m */,
 			);
 			path = TimeConnect;
 			sourceTree = "<group>";
@@ -397,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413FC78C1963C7A80004AB90 /* ViewController1.m in Sources */,
 				782D05CE1938D27400596EC5 /* AppDelegate.m in Sources */,
 				78AA7AB9194DB95B001C82EE /* FBMissingSymbols.m in Sources */,
 				782D05CA1938D27400596EC5 /* main.m in Sources */,

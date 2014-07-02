@@ -50,8 +50,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //PFUser *user = [PFUser currentUser];
     PFObject *timeSheet = [PFObject objectWithClassName:@"TimeSheet"];
+    //PFObject *time
+    //PFUser *user = [PFUser currentUser];
+  
     //timeSheet[@"username"] = user.username;
     /*PFQuery *timeInQuery = [PFQuery queryWithClassName:@"TimeSheet"];
     [timeInQuery whereKey:@"Date" equalTo:[self currentDate]];
