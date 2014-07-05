@@ -74,10 +74,10 @@
             NSLog(@"Error: %@ %@", error, [error userInfo]);
         }
     }];*/
-    /*if(timeSheet[@"timeIn"] == NULL){
+    if(timeSheet[@"timeIn"] == NULL){
         timeSheet[@"timeIn"] = [self currentTime];
         timeSheet[@"Date"] = [self currentDate];
-    }*/
+    }
     [timeSheet saveInBackground];
     // Do any additional setup after loading the view.
 }

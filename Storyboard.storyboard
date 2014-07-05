@@ -224,9 +224,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="2HR-Xx-4Fk" kind="relationship" relationship="viewControllers" id="aUB-ne-nl6"/>
-                        <segue destination="7qT-9A-SPU" kind="relationship" relationship="viewControllers" id="xTf-rm-VpK"/>
-                        <segue destination="mQT-89-qqM" kind="relationship" relationship="viewControllers" id="UAp-ew-Sj8"/>
                         <segue destination="edj-fQ-owG" kind="relationship" relationship="viewControllers" id="2pP-JS-JA6"/>
+                        <segue destination="mQT-89-qqM" kind="relationship" relationship="viewControllers" id="UAp-ew-Sj8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JSN-as-hfH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -298,11 +297,11 @@
             </objects>
             <point key="canvasLocation" x="1309" y="-385"/>
         </scene>
-        <!--Navigation Controller - Test2-->
+        <!--Navigation Controller - Week Time-->
         <scene sceneID="qAm-6Z-X3W">
             <objects>
                 <navigationController definesPresentationContext="YES" id="edj-fQ-owG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="4" title="Test2" image="clock-32.png" id="UeM-dv-MyL"/>
+                    <tabBarItem key="tabBarItem" tag="4" title="Week Time" image="calendar-32.png" id="UeM-dv-MyL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="E5a-8u-gIN">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.23711361040000001" green="0.43289935159999998" blue="0.83438297189999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -318,21 +317,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r6c-57-Ak8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="864" y="-394"/>
-        </scene>
-        <!--View Controller - Weekly View-->
-        <scene sceneID="9Lx-cN-fuD">
-            <objects>
-                <viewController id="7qT-9A-SPU" customClass="GPSViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="KT7-Ld-fGz">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.23711361040000001" green="0.43289935159999998" blue="0.83438297189999999" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" tag="1" title="Weekly View" image="calendar-32.png" id="s7a-P3-xRI"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZiE-Pw-uun" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1433" y="-106"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="3em-xH-Nx8">
