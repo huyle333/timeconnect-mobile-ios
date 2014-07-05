@@ -62,6 +62,7 @@
         query.cachePolicy = kPFCachePolicyCacheElseNetwork;
     }
     
+    // Get the first and last date of current week.
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"MM-dd-YY"];
     NSDate *today = [NSDate date];
@@ -85,12 +86,9 @@
     NSDate *endofWeek = [cal2 dateFromComponents:comp2];
     //NSDate *endofWeek = [cal dateFromComponents:comp];
     NSString *endweek = [dateFormat stringFromDate:endofWeek];
-                  
-    [query whereKey:@"username" equalTo:@"winstonc"];
-    //[query whereKey:@"Date" greaterThan:@"beginweek"];
-    //[query whereKey:@"Date" lessThanOrEqualTo:@"benginweek"];
     
-    // Ne
+    // Query parse with given username, and current weekdays records.
+    [query whereKey:@"username" equalTo:@"winstonc"];
     [query whereKey:@"createdAt" greaterThanOrEqualTo:beginningOfWeek];
     [query whereKey:@"createdAt" lessThanOrEqualTo:endofWeek];
     [query orderByAscending:@"Date"];
