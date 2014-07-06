@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>349199BC-81A9-47BB-97D8-83D958C04ECE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TimeConnect</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CAC33FE0-0191-4571-A017-8EA9EB2AB5F6</key>
+		<string>http://github.com/huyle333/TimeConnect.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TimeConnect.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CAC33FE0-0191-4571-A017-8EA9EB2AB5F6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://github.com/huyle333/TimeConnect.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CAC33FE0-0191-4571-A017-8EA9EB2AB5F6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CAC33FE0-0191-4571-A017-8EA9EB2AB5F6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TimeConnect</string>
+		</dict>
+	</array>
+</dict>
+</plist>
