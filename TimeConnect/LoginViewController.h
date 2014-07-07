@@ -22,6 +22,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *registerButton;
 @property (weak, nonatomic) IBOutlet UIButton *helpButton;
 @property (weak, nonatomic) IBOutlet UIButton *secretButton;
+@property (weak, nonatomic) IBOutlet UIImageView *titleLogo;
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 

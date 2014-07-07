@@ -28,6 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"timeconnectbg.jpg"]];
     // Do any additional setup after loading the view.
 }
 
@@ -40,7 +41,7 @@
     _secretButton.alpha = 0.0;
     
     [UIView animateWithDuration:0.5 delay: 2.0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
-        self.titleLabel.frame=CGRectMake(50, 100, 224, 65);
+        self.titleLogo.frame=CGRectMake(0, 100, 320, 56);
         // self.loginUsernameField.frame = CGRectMake(20, 223, 280, 30);
         // self.loginPasswordField.frame = CGRectMake(20, 268, 280, 30);
     }
