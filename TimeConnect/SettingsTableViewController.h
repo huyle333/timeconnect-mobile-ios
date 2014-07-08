@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UISwitch *wifiSwitch;
 @property (weak, nonatomic) IBOutlet UISwitch *gpsSwitch;
+@property (weak, nonatomic) IBOutlet UISwitch *manualSwitch;
 
 @property (weak, nonatomic) IBOutlet UIButton *logOutButton;
 - (IBAction)logOutAction:(id)sender;

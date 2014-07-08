@@ -40,8 +40,13 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
+- (IBAction)logOutAction:(id)sender {
+    [PFUser logOut];
+    [self dismissViewControllerAnimated:NO completion:nil];
+}
 
+#pragma mark - Table view data source
+/*
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
 #warning Potentially incomplete method implementation.
@@ -55,7 +60,7 @@
     // Return the number of rows in the section.
     return 0;
 }
-
+*/
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
