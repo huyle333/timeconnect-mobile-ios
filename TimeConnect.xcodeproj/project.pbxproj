@@ -42,6 +42,8 @@
 		7886BAE1194D110F00F670CB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BAE0194D110F00F670CB /* CoreData.framework */; };
 		7886BAE3194D111800F670CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BAE2194D111800F670CB /* AVFoundation.framework */; };
 		7886BAE7194D116F00F670CB /* GPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7886BAE6194D116F00F670CB /* GPSViewController.m */; };
+		789C5C13196B8DFC0052DADC /* check-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 789C5C12196B8DFC0052DADC /* check-mark.png */; };
+		789C5C15196B8E800052DADC /* x_mark_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 789C5C14196B8E800052DADC /* x_mark_red.png */; };
 		78A1FC321938DD16001E0228 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC311938DD16001E0228 /* AudioToolbox.framework */; };
 		78A1FC341938DD1B001E0228 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC331938DD1B001E0228 /* CFNetwork.framework */; };
 		78A1FC361938DD29001E0228 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC351938DD29001E0228 /* CoreLocation.framework */; };
@@ -122,6 +124,8 @@
 		7886BAE2194D111800F670CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7886BAE5194D116F00F670CB /* GPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSViewController.h; sourceTree = "<group>"; };
 		7886BAE6194D116F00F670CB /* GPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSViewController.m; sourceTree = "<group>"; };
+		789C5C12196B8DFC0052DADC /* check-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-mark.png"; sourceTree = "<group>"; };
+		789C5C14196B8E800052DADC /* x_mark_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x_mark_red.png; sourceTree = "<group>"; };
 		78A1FC311938DD16001E0228 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		78A1FC331938DD1B001E0228 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		78A1FC351938DD29001E0228 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -278,6 +282,8 @@
 		782D05C41938D27400596EC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				789C5C14196B8E800052DADC /* x_mark_red.png */,
+				789C5C12196B8DFC0052DADC /* check-mark.png */,
 				784D6A1D196B2F92005E71C5 /* logo_wallpaper.png */,
 				784D6A1B196B2DEB005E71C5 /* timeclock_logo_white_top_2.png */,
 				784D6A17196B2C9E005E71C5 /* timeclock_logo_white_top.png */,
@@ -399,8 +405,10 @@
 				D559C7E9195221E5006B93B9 /* settings3-32.png in Resources */,
 				78622A431969A2DD00959C6D /* timeclock_logo_white.png in Resources */,
 				78622A451969A70800959C6D /* timeclock_logo_white_small.png in Resources */,
+				789C5C15196B8E800052DADC /* x_mark_red.png in Resources */,
 				780739A41958855E00C32C1C /* timeconnect1024.jpg in Resources */,
 				D559C7E519522166006B93B9 /* clock-32.png in Resources */,
+				789C5C13196B8DFC0052DADC /* check-mark.png in Resources */,
 				78B87BDF195369B100531302 /* timeconnectbg.jpg in Resources */,
 				78017C021940CB4700CEF3ED /* TimeConnectlogo.png in Resources */,
 				780739AA1958889600C32C1C /* timeconnect60.png in Resources */,

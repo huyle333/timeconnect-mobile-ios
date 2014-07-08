@@ -14,5 +14,9 @@
 #import <net/if.h> // For IFF_LOOPBACK
 
 @interface CheckViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *wifiLabel;
+@property (weak, nonatomic) IBOutlet UILabel *locationLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *wifiCheck;
+@property (weak, nonatomic) IBOutlet UIImageView *locationCheck;
 
 @end

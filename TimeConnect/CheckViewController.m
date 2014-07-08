@@ -47,14 +47,60 @@
     return timeString;
 }
 
+- (void) checkTimeLabel{
+    UILabel *currentDateLabel  =  [[UILabel alloc]init];
+    currentDateLabel .frame     =  CGRectMake(20,250,98,32);
+    currentDateLabel .text      =  [self currentDate];
+    [self.view addSubview:currentDateLabel];
+    
+    UILabel *timeLabel  =  [[UILabel alloc]init];
+    timeLabel .frame     =  CGRectMake(145,250,98,32);
+    timeLabel .text      =  [self currentTime];
+    [self.view addSubview:timeLabel];
+}
+
+- (void) checkTimeLabelOut{
+    UILabel *currentDateOutLabel  =  [[UILabel alloc]init];
+    currentDateOutLabel .frame     =  CGRectMake(20,300,98,32);
+    currentDateOutLabel .text      =  [self currentDate];
+    [self.view addSubview:currentDateOutLabel];
+    
+    UILabel *timeLabelOut  =  [[UILabel alloc]init];
+    timeLabelOut .frame     =  CGRectMake(145,300,98,32);
+    timeLabelOut .text      =  [self currentTime];
+    [self.view addSubview:timeLabelOut];
+}
+
+- (void) subtraction{
+    UILabel *subtraction  =  [[UILabel alloc]init];
+    subtraction .frame     =  CGRectMake(20,330,200,32);
+    subtraction .text      =  @"14 Minutes worked";
+    [self.view addSubview:subtraction];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UILabel *introLabel  =  [[UILabel alloc]init];
+    introLabel.frame     =  CGRectMake(20,39,280,43);
+    introLabel.text      =  [NSString stringWithFormat:@"Server Date and Time:"];
+    [self.view addSubview:introLabel];
+    
+    UILabel *currentDateLabel  =  [[UILabel alloc]init];
+    currentDateLabel .frame     =  CGRectMake(20,68,98,32);
+    currentDateLabel .text      =  [self currentDate];
+    [self.view addSubview:currentDateLabel];
+    
+    UILabel *currentTimeLabel  =  [[UILabel alloc]init];
+    currentTimeLabel .frame     =  CGRectMake(145,68,98,32);
+    currentTimeLabel .text      =  [self currentTime];
+    [self.view addSubview:currentTimeLabel];
+    
     PFObject *timeSheet = [PFObject objectWithClassName:@"TimeSheet"];
     //PFObject *time
-    //PFUser *user = [PFUser currentUser];
+    PFUser *user = [PFUser currentUser];
   
-    //timeSheet[@"username"] = user.username;
+    timeSheet[@"username"] = user.username;
     /*PFQuery *timeInQuery = [PFQuery queryWithClassName:@"TimeSheet"];
     [timeInQuery whereKey:@"Date" equalTo:[self currentDate]];
     [timeInQuery getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error){
@@ -75,11 +121,61 @@
         }
     }];*/
     if(timeSheet[@"timeIn"] == NULL){
+        
+        //[self performSelector:@selector(checkTimeLabel) withObject:(self) afterDelay:(8.0)];
+        UILabel *inLabel  =  [[UILabel alloc]init];
+        inLabel .frame     =  CGRectMake(20,220,98,32);
+        inLabel .text      =  @"Time in:";
+        [self.view addSubview:inLabel];
+        //manual
+        UILabel *currentDateLabel  =  [[UILabel alloc]init];
+        currentDateLabel .frame     =  CGRectMake(20,250,98,32);
+        currentDateLabel .text      =  @"07-07-2014";
+        [self.view addSubview:currentDateLabel];
+        
+        UILabel *timeLabel  =  [[UILabel alloc]init];
+        timeLabel .frame     =  CGRectMake(145,250,98,32);
+        timeLabel .text      =  @"23:17";
+        [self.view addSubview:timeLabel];
+        
+        
+        [self performSelector:@selector(checkTimeLabelOut) withObject:(self) afterDelay:(8.0)];
+        UILabel *outLabel  =  [[UILabel alloc]init];
+        outLabel .frame     =  CGRectMake(20,270,98,32);
+        outLabel .text      =  @"Time out:";
+        [self.view addSubview:outLabel];
+        
+        [self performSelector:@selector(subtraction) withObject:(self) afterDelay:(8.0)];
+        
         timeSheet[@"timeIn"] = [self currentTime];
         timeSheet[@"Date"] = [self currentDate];
     }
     [timeSheet saveInBackground];
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    _wifiLabel.alpha = 0.0;
+    _locationLabel.alpha = 0.0;
+    _wifiCheck.alpha = 0.0;
+    _locationCheck.alpha = 0.0;
+    
+    [UIView animateWithDuration:0.5 delay: 3.0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+        _wifiLabel.alpha = 1.0;
+    }
+                     completion:^(BOOL finished) {
+                         [UIView animateWithDuration:0.25 animations:^{
+                             _wifiCheck.alpha = 1.0;
+                         }];
+                     }];
+    [UIView animateWithDuration:0.5 delay: 6.0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
+        _locationLabel.alpha = 1.0;
+    }
+                     completion:^(BOOL finished) {
+                         [UIView animateWithDuration:0.25 animations:^{
+                             _locationCheck.alpha = 1.0;
+                         }];
+                     }];
 }
 
 - (void)didReceiveMemoryWarning
