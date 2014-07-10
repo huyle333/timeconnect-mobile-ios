@@ -128,25 +128,26 @@
         inLabel .text      =  @"Time in:";
         [self.view addSubview:inLabel];
         //manual
-        UILabel *currentDateLabel  =  [[UILabel alloc]init];
+        /*UILabel *currentDateLabel  =  [[UILabel alloc]init];
         currentDateLabel .frame     =  CGRectMake(20,250,98,32);
         currentDateLabel .text      =  @"07-07-2014";
         [self.view addSubview:currentDateLabel];
-        
-        UILabel *timeLabel  =  [[UILabel alloc]init];
+        */
+        /*UILabel *timeLabel  =  [[UILabel alloc]init];
         timeLabel .frame     =  CGRectMake(145,250,98,32);
         timeLabel .text      =  @"23:17";
         [self.view addSubview:timeLabel];
+        */
         
-        
-        [self performSelector:@selector(checkTimeLabelOut) withObject:(self) afterDelay:(8.0)];
+        [self performSelector:@selector(checkTimeLabel) withObject:(self) afterDelay:(8.0)];
+        /*
         UILabel *outLabel  =  [[UILabel alloc]init];
         outLabel .frame     =  CGRectMake(20,270,98,32);
         outLabel .text      =  @"Time out:";
         [self.view addSubview:outLabel];
         
         [self performSelector:@selector(subtraction) withObject:(self) afterDelay:(8.0)];
-        
+        */
         timeSheet[@"timeIn"] = [self currentTime];
         timeSheet[@"Date"] = [self currentDate];
     }
