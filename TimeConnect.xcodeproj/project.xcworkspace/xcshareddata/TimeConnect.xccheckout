@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>349199BC-81A9-47BB-97D8-83D958C04ECE</string>
+	<string>20A17163-6426-460F-B7FC-D5643D96002F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TimeConnect</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CAC33FE0-0191-4571-A017-8EA9EB2AB5F6</key>
-		<string>http://github.com/huyle333/TimeConnect.git</string>
+		<key>75BF088E-28D9-42DA-8A1C-62961DD0D940</key>
+		<string>https://bitbucket.org/timeconnect/timeconnect-mobile-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TimeConnect.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CAC33FE0-0191-4571-A017-8EA9EB2AB5F6</key>
+		<key>75BF088E-28D9-42DA-8A1C-62961DD0D940</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://github.com/huyle333/TimeConnect.git</string>
+	<string>https://bitbucket.org/timeconnect/timeconnect-mobile-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CAC33FE0-0191-4571-A017-8EA9EB2AB5F6</string>
+	<string>75BF088E-28D9-42DA-8A1C-62961DD0D940</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CAC33FE0-0191-4571-A017-8EA9EB2AB5F6</string>
+			<string>75BF088E-28D9-42DA-8A1C-62961DD0D940</string>
 			<key>IDESourceControlWCCName</key>
-			<string>TimeConnect</string>
+			<string>timeconnect-mobile-ios</string>
 		</dict>
 	</array>
 </dict>
