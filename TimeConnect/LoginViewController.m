@@ -41,7 +41,7 @@
     _secretButton.alpha = 0.0;
     
     [UIView animateWithDuration:0.5 delay: 2.0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
-        self.titleLogo.frame=CGRectMake(0, 100, 320, 56);
+        self.titleLogo.frame=CGRectMake(20, 120, 280, 41);
         // self.loginUsernameField.frame = CGRectMake(20, 223, 280, 30);
         // self.loginPasswordField.frame = CGRectMake(20, 268, 280, 30);
     }

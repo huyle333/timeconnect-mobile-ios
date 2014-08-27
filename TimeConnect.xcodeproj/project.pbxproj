@@ -32,6 +32,8 @@
 		78622A411969A26600959C6D /* timeclock_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 78622A401969A26600959C6D /* timeclock_logo.png */; };
 		78622A431969A2DD00959C6D /* timeclock_logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 78622A421969A2DD00959C6D /* timeclock_logo_white.png */; };
 		78622A451969A70800959C6D /* timeclock_logo_white_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 78622A441969A70800959C6D /* timeclock_logo_white_small.png */; };
+		786576BB19AE1F6A00D430B2 /* TimeConnectWhiteLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 786576BA19AE1F6A00D430B2 /* TimeConnectWhiteLogo.png */; };
+		786576BF19AE5FCA00D430B2 /* timeconnect-white-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 786576BE19AE5FCA00D430B2 /* timeconnect-white-blue.png */; };
 		7886BAD0194C9CF000F670CB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7886BACF194C9CF000F670CB /* RegisterViewController.m */; };
 		7886BAD3194CEDAD00F670CB /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7886BAD2194CEDAD00F670CB /* CheckViewController.m */; };
 		7886BAD7194D10D400F670CB /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7886BAD6194D10D400F670CB /* GoogleMaps.framework */; };
@@ -111,6 +113,8 @@
 		78622A401969A26600959C6D /* timeclock_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeclock_logo.png; sourceTree = "<group>"; };
 		78622A421969A2DD00959C6D /* timeclock_logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeclock_logo_white.png; sourceTree = "<group>"; };
 		78622A441969A70800959C6D /* timeclock_logo_white_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeclock_logo_white_small.png; sourceTree = "<group>"; };
+		786576BA19AE1F6A00D430B2 /* TimeConnectWhiteLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeConnectWhiteLogo.png; sourceTree = "<group>"; };
+		786576BE19AE5FCA00D430B2 /* timeconnect-white-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeconnect-white-blue.png"; sourceTree = "<group>"; };
 		7886BACE194C9CF000F670CB /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		7886BACF194C9CF000F670CB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		7886BAD1194CEDAD00F670CB /* CheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckViewController.h; sourceTree = "<group>"; };
@@ -282,6 +286,8 @@
 		782D05C41938D27400596EC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				786576BE19AE5FCA00D430B2 /* timeconnect-white-blue.png */,
+				786576BA19AE1F6A00D430B2 /* TimeConnectWhiteLogo.png */,
 				789C5C14196B8E800052DADC /* x_mark_red.png */,
 				789C5C12196B8DFC0052DADC /* check-mark.png */,
 				784D6A1D196B2F92005E71C5 /* logo_wallpaper.png */,
@@ -408,9 +414,11 @@
 				789C5C15196B8E800052DADC /* x_mark_red.png in Resources */,
 				780739A41958855E00C32C1C /* timeconnect1024.jpg in Resources */,
 				D559C7E519522166006B93B9 /* clock-32.png in Resources */,
+				786576BB19AE1F6A00D430B2 /* TimeConnectWhiteLogo.png in Resources */,
 				789C5C13196B8DFC0052DADC /* check-mark.png in Resources */,
 				78B87BDF195369B100531302 /* timeconnectbg.jpg in Resources */,
 				78017C021940CB4700CEF3ED /* TimeConnectlogo.png in Resources */,
+				786576BF19AE5FCA00D430B2 /* timeconnect-white-blue.png in Resources */,
 				780739AA1958889600C32C1C /* timeconnect60.png in Resources */,
 				780739A8195887CE00C32C1C /* timeconnect120.png in Resources */,
 				784D6A18196B2C9E005E71C5 /* timeclock_logo_white_top.png in Resources */,
