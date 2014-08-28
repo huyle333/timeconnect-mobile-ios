@@ -10,9 +10,6 @@
 		413FC78C1963C7A80004AB90 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 413FC78B1963C7A80004AB90 /* ViewController1.m */; };
 		78017C021940CB4700CEF3ED /* TimeConnectlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 78017C011940CB4700CEF3ED /* TimeConnectlogo.png */; };
 		7807399A19587FAF00C32C1C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7807399919587FAF00C32C1C /* SettingsViewController.m */; };
-		780739A41958855E00C32C1C /* timeconnect1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7807399F1958855E00C32C1C /* timeconnect1024.jpg */; };
-		780739A8195887CE00C32C1C /* timeconnect120.png in Resources */ = {isa = PBXBuildFile; fileRef = 780739A7195887CE00C32C1C /* timeconnect120.png */; };
-		780739AA1958889600C32C1C /* timeconnect60.png in Resources */ = {isa = PBXBuildFile; fileRef = 780739A91958889600C32C1C /* timeconnect60.png */; };
 		782D05BE1938D27400596EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05BD1938D27400596EC5 /* Foundation.framework */; };
 		782D05C01938D27400596EC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05BF1938D27400596EC5 /* CoreGraphics.framework */; };
 		782D05C21938D27400596EC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782D05C11938D27400596EC5 /* UIKit.framework */; };
@@ -56,6 +53,11 @@
 		78A1FC401938DD44001E0228 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC3F1938DD44001E0228 /* StoreKit.framework */; };
 		78A1FC421938DD4E001E0228 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC411938DD4E001E0228 /* SystemConfiguration.framework */; };
 		78A1FC441938DDDB001E0228 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FC431938DDDB001E0228 /* Parse.framework */; };
+		78A2D3F919AFA24E00CFDE41 /* whitesamplelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A2D3F819AFA24E00CFDE41 /* whitesamplelogo.png */; };
+		78A2D3FB19AFA5C100CFDE41 /* timeconnectwhitelogog.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A2D3FA19AFA5C100CFDE41 /* timeconnectwhitelogog.png */; };
+		78A2D3FD19AFAA4E00CFDE41 /* testinglogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A2D3FC19AFAA4E00CFDE41 /* testinglogo.png */; };
+		78A2D3FF19AFAB0800CFDE41 /* testsmooth.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A2D3FE19AFAB0800CFDE41 /* testsmooth.png */; };
+		78A2D40119AFAB7400CFDE41 /* triplethreat.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A2D40019AFAB7400CFDE41 /* triplethreat.png */; };
 		78AA7AB0194DB772001C82EE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AA7AAF194DB772001C82EE /* libc++.dylib */; };
 		78AA7AB2194DB782001C82EE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AA7AB1194DB782001C82EE /* libicucore.dylib */; };
 		78AA7AB4194DB898001C82EE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AA7AB3194DB898001C82EE /* Social.framework */; };
@@ -86,9 +88,6 @@
 		78017C011940CB4700CEF3ED /* TimeConnectlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeConnectlogo.png; sourceTree = "<group>"; };
 		7807399819587FAF00C32C1C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		7807399919587FAF00C32C1C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		7807399F1958855E00C32C1C /* timeconnect1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timeconnect1024.jpg; sourceTree = "<group>"; };
-		780739A7195887CE00C32C1C /* timeconnect120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeconnect120.png; sourceTree = "<group>"; };
-		780739A91958889600C32C1C /* timeconnect60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeconnect60.png; sourceTree = "<group>"; };
 		782D05BA1938D27400596EC5 /* TimeConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782D05BD1938D27400596EC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		782D05BF1938D27400596EC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,6 +139,11 @@
 		78A1FC3F1938DD44001E0228 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		78A1FC411938DD4E001E0228 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		78A1FC431938DDDB001E0228 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		78A2D3F819AFA24E00CFDE41 /* whitesamplelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitesamplelogo.png; sourceTree = "<group>"; };
+		78A2D3FA19AFA5C100CFDE41 /* timeconnectwhitelogog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeconnectwhitelogog.png; sourceTree = "<group>"; };
+		78A2D3FC19AFAA4E00CFDE41 /* testinglogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testinglogo.png; sourceTree = "<group>"; };
+		78A2D3FE19AFAB0800CFDE41 /* testsmooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testsmooth.png; sourceTree = "<group>"; };
+		78A2D40019AFAB7400CFDE41 /* triplethreat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triplethreat.png; sourceTree = "<group>"; };
 		78AA7AAF194DB772001C82EE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		78AA7AB1194DB782001C82EE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		78AA7AB3194DB898001C82EE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -286,6 +290,11 @@
 		782D05C41938D27400596EC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78A2D40019AFAB7400CFDE41 /* triplethreat.png */,
+				78A2D3FE19AFAB0800CFDE41 /* testsmooth.png */,
+				78A2D3FC19AFAA4E00CFDE41 /* testinglogo.png */,
+				78A2D3FA19AFA5C100CFDE41 /* timeconnectwhitelogog.png */,
+				78A2D3F819AFA24E00CFDE41 /* whitesamplelogo.png */,
 				786576BE19AE5FCA00D430B2 /* timeconnect-white-blue.png */,
 				786576BA19AE1F6A00D430B2 /* TimeConnectWhiteLogo.png */,
 				789C5C14196B8E800052DADC /* x_mark_red.png */,
@@ -296,9 +305,6 @@
 				78622A441969A70800959C6D /* timeclock_logo_white_small.png */,
 				78622A421969A2DD00959C6D /* timeclock_logo_white.png */,
 				78622A401969A26600959C6D /* timeclock_logo.png */,
-				780739A91958889600C32C1C /* timeconnect60.png */,
-				780739A7195887CE00C32C1C /* timeconnect120.png */,
-				7807399F1958855E00C32C1C /* timeconnect1024.jpg */,
 				78B87BDE195369B100531302 /* timeconnectbg.jpg */,
 				D559C7E8195221E5006B93B9 /* settings3-32.png */,
 				D559C7E6195221B0006B93B9 /* calendar-32.png */,
@@ -411,17 +417,19 @@
 				D559C7E9195221E5006B93B9 /* settings3-32.png in Resources */,
 				78622A431969A2DD00959C6D /* timeclock_logo_white.png in Resources */,
 				78622A451969A70800959C6D /* timeclock_logo_white_small.png in Resources */,
+				78A2D3FF19AFAB0800CFDE41 /* testsmooth.png in Resources */,
 				789C5C15196B8E800052DADC /* x_mark_red.png in Resources */,
-				780739A41958855E00C32C1C /* timeconnect1024.jpg in Resources */,
 				D559C7E519522166006B93B9 /* clock-32.png in Resources */,
 				786576BB19AE1F6A00D430B2 /* TimeConnectWhiteLogo.png in Resources */,
+				78A2D40119AFAB7400CFDE41 /* triplethreat.png in Resources */,
 				789C5C13196B8DFC0052DADC /* check-mark.png in Resources */,
 				78B87BDF195369B100531302 /* timeconnectbg.jpg in Resources */,
 				78017C021940CB4700CEF3ED /* TimeConnectlogo.png in Resources */,
 				786576BF19AE5FCA00D430B2 /* timeconnect-white-blue.png in Resources */,
-				780739AA1958889600C32C1C /* timeconnect60.png in Resources */,
-				780739A8195887CE00C32C1C /* timeconnect120.png in Resources */,
+				78A2D3FB19AFA5C100CFDE41 /* timeconnectwhitelogog.png in Resources */,
+				78A2D3FD19AFAA4E00CFDE41 /* testinglogo.png in Resources */,
 				784D6A18196B2C9E005E71C5 /* timeclock_logo_white_top.png in Resources */,
+				78A2D3F919AFA24E00CFDE41 /* whitesamplelogo.png in Resources */,
 				782D05C81938D27400596EC5 /* InfoPlist.strings in Resources */,
 				784D6A1E196B2F92005E71C5 /* logo_wallpaper.png in Resources */,
 				78622A411969A26600959C6D /* timeclock_logo.png in Resources */,
